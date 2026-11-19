@@ -1,0 +1,7 @@
+methode,precision_at_k,rappel_at_k,taux_reussite,taux_reussite_et,couverture_catalogue,utilisateurs_evalues
+Popularité (référence),0.2,0.4372,0.6272,0.0139,0.449,346.0
+Contenu (genres),0.1099,0.2458,0.4266,0.0182,0.9959,346.0
+Collaboratif (utilisateurs voisins),0.1763,0.3849,0.6156,0.0276,0.9469,346.0
+Collaboratif (films similaires),0.1245,0.2554,0.4474,0.0043,1.0,346.0
+Factorisation (SVD),0.1391,0.2952,0.5064,0.0105,0.9429,346.0
+Hybride (popularité + voisins),0.2039,0.4437,0.6376,0.0164,0.4816,346.0

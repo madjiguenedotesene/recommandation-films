@@ -1,0 +1,52 @@
+{
+  "profil": {
+    "Toy Story (1995)": 5.0,
+    "Pinocchio (1940)": 4.5,
+    "Dumbo (1941)": 4.0,
+    "Heat (1995)": 1.5
+  },
+  "recommandations": {
+    "Popularité (référence)": [
+      "Star Wars: Episode IV - A New Hope (1977)",
+      "Star Wars: Episode V - The Empire Strikes Back (1980)",
+      "Forrest Gump (1994)",
+      "Reservoir Dogs (1992)",
+      "Monty Python and the Holy Grail (1975)"
+    ],
+    "Contenu (genres)": [
+      "James and the Giant Peach (1996)",
+      "Alice in Wonderland (1951)",
+      "Winnie the Pooh and the Blustery Day (1968)",
+      "Pete's Dragon (1977)",
+      "Space Jam (1996)"
+    ],
+    "Collaboratif (utilisateurs voisins)": [
+      "Forrest Gump (1994)",
+      "Fargo (1996)",
+      "Star Wars: Episode IV - A New Hope (1977)",
+      "Star Wars: Episode V - The Empire Strikes Back (1980)",
+      "Platoon (1986)"
+    ],
+    "Collaboratif (films similaires)": [
+      "Rob Roy (1995)",
+      "E.T. the Extra-Terrestrial (1982)",
+      "Willy Wonka & the Chocolate Factory (1971)",
+      "Mr. Smith Goes to Washington (1939)",
+      "That Thing You Do! (1996)"
+    ],
+    "Factorisation (SVD)": [
+      "E.T. the Extra-Terrestrial (1982)",
+      "Willy Wonka & the Chocolate Factory (1971)",
+      "Ed Wood (1994)",
+      "Mrs. Doubtfire (1993)",
+      "Desperado (1995)"
+    ],
+    "Hybride (popularité + voisins)": [
+      "Forrest Gump (1994)",
+      "Star Wars: Episode IV - A New Hope (1977)",
+      "Star Wars: Episode V - The Empire Strikes Back (1980)",
+      "Fargo (1996)",
+      "Monty Python and the Holy Grail (1975)"
+    ]
+  }
+}

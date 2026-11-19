@@ -1,0 +1,22 @@
+name: CI – tests et évaluation
+
+on: [push, pull_request]
+
+jobs:
+  evaluation:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+      - name: Tests
+        run: pytest -q
+      - name: Évaluation
+        run: python run_all.py
+      - name: L'application démarre
+        run: |
+          timeout 20 streamlit run app.py --server.headless true --server.port 8501 &
+          sleep 12 && curl -sf http://localhost:8501/_stcore/health

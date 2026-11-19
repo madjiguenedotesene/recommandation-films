@@ -1,0 +1,50 @@
+{
+  "Popularité (référence)": {
+    "precision_at_k": 0.2,
+    "rappel_at_k": 0.4372,
+    "taux_reussite": 0.6272,
+    "taux_reussite_et": 0.0139,
+    "couverture_catalogue": 0.449,
+    "utilisateurs_evalues": 346.0
+  },
+  "Contenu (genres)": {
+    "precision_at_k": 0.1099,
+    "rappel_at_k": 0.2458,
+    "taux_reussite": 0.4266,
+    "taux_reussite_et": 0.0182,
+    "couverture_catalogue": 0.9959,
+    "utilisateurs_evalues": 346.0
+  },
+  "Collaboratif (utilisateurs voisins)": {
+    "precision_at_k": 0.1763,
+    "rappel_at_k": 0.3849,
+    "taux_reussite": 0.6156,
+    "taux_reussite_et": 0.0276,
+    "couverture_catalogue": 0.9469,
+    "utilisateurs_evalues": 346.0
+  },
+  "Collaboratif (films similaires)": {
+    "precision_at_k": 0.1245,
+    "rappel_at_k": 0.2554,
+    "taux_reussite": 0.4474,
+    "taux_reussite_et": 0.0043,
+    "couverture_catalogue": 1.0,
+    "utilisateurs_evalues": 346.0
+  },
+  "Factorisation (SVD)": {
+    "precision_at_k": 0.1391,
+    "rappel_at_k": 0.2952,
+    "taux_reussite": 0.5064,
+    "taux_reussite_et": 0.0105,
+    "couverture_catalogue": 0.9429,
+    "utilisateurs_evalues": 346.0
+  },
+  "Hybride (popularité + voisins)": {
+    "precision_at_k": 0.2039,
+    "rappel_at_k": 0.4437,
+    "taux_reussite": 0.6376,
+    "taux_reussite_et": 0.0164,
+    "couverture_catalogue": 0.4816,
+    "utilisateurs_evalues": 346.0
+  }
+}
